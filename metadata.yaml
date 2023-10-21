@@ -1,5 +1,5 @@
-homepage: "https://firework.com/"
-documentation: "https://docs.firework.com/home/web/tutorials"
+homepage: "https://firework.com"
+documentation: "https://github.com/loopsocial/firework-purchase-tracking#readme"
 versions:
   # Latest version
   - sha: e1116eb3ef6f0d58ba33f7828042669b257408a4
