@@ -1,4 +1,4 @@
-
+![48px](https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921)
 ![ezgif com-webp-to-png](https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/19af597b-b44b-437c-9a11-f4b666c362ea)
 
 
@@ -40,7 +40,7 @@ window.dataLayer.push({
 
 ## Implementation Steps
     
-###  Add the Firework Purchase Tracking Tag template from within Tag Manager
+1. ###  Add the Firework Purchase Tracking Tag template from within Tag Manager
 Our tag is available on Google Tag Manager Community Template Gallery. 
 
 **To search for and add the Firework tag template:**
@@ -51,8 +51,13 @@ Our tag is available on Google Tag Manager Community Template Gallery.
 5. To add the template, click **Add to workspace**.
 6. Review the required template permissions and click **Add**. 
 
+2. ###  Add a new tag using the Firework Purchase Tracking template
+In your Workspace, click ![Upl<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M840-480 671-241q-13 18-31 29.5T600-200H180q-25 0-42.5-17.5T120-260v-440q0-25 17.5-42.5T180-760h420q22 0 40 11.5t31 29.5l169 239Z"/></svg>oading 48px.svg…]() Tags.
 
-  
+To add a tag, click New.
+Name your tag and configure it: Tag Configuration: Choose the type of tag you want to manage. ...
+Optional: Add a note to your configuration for later reference. ...
+Click Save and create more tags as needed.  
     
 ### Tag Manager Preview Mode:
 Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
