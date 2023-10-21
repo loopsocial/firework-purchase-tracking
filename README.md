@@ -24,8 +24,8 @@ This guide is going to cover the implementation using [Google Tag Manager](https
 <script>
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  order_id: '101045043',
-  order_value: 25,
+  order_id: '12345',
+  order_value: 100,
   currency: 'USD',
   subtotal: 0.00,
   shipping_price: 0,
@@ -33,6 +33,13 @@ window.dataLayer.push({
 });
 </script>
 ```
+This implementation requires the following data points to be pushed to the dataLayer in order to send purchase data:
+
+- order_id: the ID of an order/transaction e.g. '12345'
+- order_value: total value of the order, e.g. 100
+- currency: the currency in which the order_value was purchased. See a [list]([url](https://en.wikipedia.org/wiki/ISO_4217)) of supported currency codes. E.g. 'USD', 'CAD' etc.
+- Product IDs: A comma-separated string or an array of product IDs that were part of the Order. E.g. '123,456,789' or ['123', '456', '789']
+
 3. A Trigger for when an order is completed (purchase confirmation page)
 
 
