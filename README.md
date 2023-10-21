@@ -54,10 +54,14 @@ Our tag is available on Google Tag Manager Community Template Gallery.
 2. ###  Add a new tag using the Firework Purchase Tracking template
 In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
-To add a tag, click New.
-Name your tag and configure it: Tag Configuration: Choose the type of tag you want to manage. ...
-Optional: Add a note to your configuration for later reference. ...
-Click Save and create more tags as needed.  
+a. Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
+b. Name your tag and configure it:
+   Tag Configuration: Choose the type of tag you want to manage. ...
+   Optional: Add a note to your configuration for later reference. ...
+c. Click **Save** and create more tags as needed.  
+
+<img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
+
     
 ### Tag Manager Preview Mode:
 Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
