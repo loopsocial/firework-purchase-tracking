@@ -41,6 +41,8 @@ window.dataLayer.push({
 ## Implementation Steps
     
 ###  Add the Firework Purchase Tracking Tag template from within Tag Manager
+Our tag is available on Google Tag Manager Community Template Gallery. To find it, you simply:
+
 **To search for and add the Firework tag template:**
 1. From within Tag Manager, click **Templates**.
 2. In the **Tag Templates** section, click **Search Gallery**.
