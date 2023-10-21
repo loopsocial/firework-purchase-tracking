@@ -55,10 +55,10 @@ Our tag is available on Google Tag Manager Community Template Gallery.
 In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
 a. Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-b. Name your tag and configure it:
-   Tag Configuration: Choose the type of tag you want to manage. ...
+b. Name your tag
    Optional: Add a note to your configuration for later reference. ...
-c. Click **Save** and create more tags as needed.  
+c. Add the triggering   
+d. Click **Save** and create more tags as needed.  
 
 <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
 
