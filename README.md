@@ -24,21 +24,38 @@ This guide is going to cover the implementation using [Google Tag Manager](https
 <script>
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  order_id: '12345',
-  order_value: 100,
-  currency: 'USD',
-  subtotal: 0.00,
-  shipping_price: 0,
-  country: 'USA'
+  order_id: '23423',
+  order_value: '35.54',
+  currency: 'CAD',
+  country: 'Canada',
+  subtotal: '31.89',
+  payment_method: 'AMEX',
+  product: [{ ext_product_id: '4483', price: 31, quantity: 1 }],
+  ext_customer_identifier: '1234-1234-1234-1234'
 });
 </script>
 ```
 This implementation requires the following data points to be pushed to the dataLayer in order to send purchase  to Firework:
 
-- order_id: the ID of an order/transaction e.g. '12345'
-- order_value: total value of the order, e.g. 100
-- currency: the currency in which the order_value was purchased. See a [list]([url](https://en.wikipedia.org/wiki/ISO_4217)) of supported currency codes. E.g. 'USD', 'CAD' etc.
-- Product IDs: A comma-separated string or an array of product IDs that were part of the Order. E.g. '123,456,789' or ['123', '456', '789']
+  - order_id: string
+  ID of an order/transaction e.g. '12345'
+
+  - order_value: number
+  total value of the order, e.g. 100
+
+  - currency: string
+  currency in which the order_value was purchased. See a [list]([url](https://en.wikipedia.org/wiki/ISO_4217)) of supported currency codes. E.g. 'USD', 'CAD' etc.
+
+  - country: string
+
+  - subtotal?: number
+
+  - payment_method?: string
+
+  - product?: Array<{ ext_product_id: string; price: number; quantity: number }>
+  A comma-separated string or an array of product IDs, its prices and quantities that were part of the Order.
+
+  - ext_customer_identifier?: string
 
 3. A Trigger for when an order is completed (purchase confirmation page)
 
