@@ -44,7 +44,7 @@ This implementation requires the following data points to be pushed to the **dat
   total value of the order, e.g. 100
 
   - **currency**: string
-  currency in which the order_value was purchased. See a [list]([url](https://en.wikipedia.org/wiki/ISO_4217)) of supported currency codes. E.g. 'USD', 'CAD' etc.
+  currency in which the order_value was purchased. See a [list](https://en.wikipedia.org/wiki/ISO_4217) of supported currency codes. E.g. 'USD', 'CAD' etc.
 
   - **country**: string
 
