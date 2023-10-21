@@ -46,13 +46,13 @@ Our tag is available on Google Tag Manager Community Template Gallery.
 **To search for and add the Firework tag template:**
 1. From within Tag Manager, click **Templates**.
 2. In the **Tag Templates** section, click **Search Gallery**.
-3. To filter the list, click <img width="27" alt="Screenshot 2023-10-21 at 11 49 23 AM" src="https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/3febe355-5c2e-4830-a37d-99a6ab5d34bc"> to open the search field and type "Firework Purchase Tracking" to show the Firework template.
+3. To filter the list, click <img width="27" src="https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/3febe355-5c2e-4830-a37d-99a6ab5d34bc"> to open the search field and type "Firework Purchase Tracking" to show the Firework template.
 4. Click on the Firework Purchase Tracking Tag template from the result to view details.
 5. To add the template, click **Add to workspace**.
 6. Review the required template permissions and click **Add**. 
 
 2. ###  Add a new tag using the Firework Purchase Tracking template
-In your Workspace, click ![48px](https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921) Tags.
+In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
 To add a tag, click New.
 Name your tag and configure it: Tag Configuration: Choose the type of tag you want to manage. ...
