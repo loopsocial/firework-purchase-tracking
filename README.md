@@ -20,7 +20,7 @@ This guide is going to cover the implementation using [Google Tag Manager](https
 1. Google Tag Manager implemented
 2. a datalayer object from Google Tag Manager pushing the order details, see an example below
    
-```javascript
+```JavaScript
 <script>
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
