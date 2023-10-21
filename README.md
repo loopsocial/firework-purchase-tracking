@@ -51,7 +51,7 @@ window.dataLayer.push({
   - To add the template, click **Add to workspace**.
   - Review the required template permissions and click **Add**. 
 
-  2. ###  Add a new tag using the Firework Purchase Tracking template
+  2. ###  Add a new tag using the Firework Purchase Tracking template and assign a trigger
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
   - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
@@ -65,9 +65,10 @@ window.dataLayer.push({
   
   3. ### Validate the implementation
   Google tag manager has a [preview]([url](https://support.google.com/tagmanager/answer/6107056)) feature that you can now use to test the integration before putting it live on your website.
-    - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
-    - Navigate to the DataLayer tab in the Tag Manager Preview panel.
-    - Verify that the FireWork Purchase Event is visible under the dataLayer section and is not loaded as a variable of type Object. It should be present as a distinct entry within the dataLayer.
-    - Test the implementation by making a test purchase on your website.
-    - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
+  
+  - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
+  - Navigate to the DataLayer tab in the Tag Manager Preview panel.
+  - Verify that the FireWork Purchase Event is visible under the dataLayer section and is not loaded as a variable of type Object. It should be present as a distinct entry within the dataLayer.
+  - Test the implementation by making a test purchase on your website.
+  - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
 
