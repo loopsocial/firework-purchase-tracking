@@ -10,8 +10,6 @@ Firework Purchase Tracking gives you valuable insights for user's shopping exper
 
 By implementing the **Firework Purchase Tracking tag**, we can determine the GMV and AOV attributed to Firework. 
 
-## Implementation
-
 You can add the Firework Purchase Tracking Tag in different ways:
   1. Add it directly to your application code - just follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
   2. Or inject it through a tag manager solution such as Google Tag Manager, Tealium, and Adobe Analytics
