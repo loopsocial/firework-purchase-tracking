@@ -2,8 +2,8 @@ homepage: "https://firework.com"
 documentation: "https://github.com/loopsocial/firework-purchase-tracking#readme"
 versions:
   # Latest version
-  - sha: e1116eb3ef6f0d58ba33f7828042669b257408a4
-    changeNotes: Initial release.
+  - sha: 5f7642796ed70c3dbb747a978046e251457fef53
+    changeNotes: Latest release.
   # Older versions
-  - sha: 72a276d43055021e192bf62273bfeca928bbd3f6
+  - sha: 9995a342bb2a9a1d964d9791bb1bbd718176d246
     changeNotes: Initial release.
