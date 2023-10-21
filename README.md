@@ -18,7 +18,7 @@ This guide is going to cover the implementation using [Google Tag Manager](https
 
 ## Requirements
 1. Google Tag Manager implemented
-2. a datalayer object from Google Tag Manager pushing the order details, see an example below
+2. a **datalayer** object from Google Tag Manager pushing the order details, see an example below
    
 ```JavaScript
 <script>
