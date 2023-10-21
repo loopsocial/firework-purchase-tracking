@@ -13,8 +13,8 @@ By implementing the **Firework Purchase Tracking tag**, we can determine the GMV
 ## Implementation
 
 You can add the Firework Purchase Tracking Tag to your 'Purchase Confirmation' in different ways:
-1. Add it directly to your application code, you'll need to follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
-2. Or inject it through a tag manager solution such as Google Tag Manager, Tealium, and Adobe Analytics
+  1. Add it directly to your application code, you'll need to follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
+  2. Or inject it through a tag manager solution such as Google Tag Manager, Tealium, and Adobe Analytics
 
 This guide is going to cover the implementation using [Google Tag Manager](https://tagmanager.google.com/). The Firework Purchase Tracking tag is designed to capture specific purchase events on your website. In order to ensure accurate data capture, it is essential to correctly configure a new tag using the Firework Purchase Tracking Tag Template and push the necessary information to the Google Tag Manager [dataLayer](https://developers.google.com/tag-platform/tag-manager/datalayer) object on your web pages.
 
@@ -40,8 +40,8 @@ window.dataLayer.push({
 
 ## Implementation Steps
     
-1. ###  Add the Firework Purchase Tracking Tag template from within Tag Manager
-Our tag is available on Google Tag Manager Community Template Gallery. 
+  1. ###  Add the Firework Purchase Tracking Tag template from within Tag Manager
+  Our tag is available on Google Tag Manager Community Template Gallery. 
 
   **To search for and add the Firework tag template:**
   - From within Tag Manager, click **Templates**.
@@ -51,15 +51,15 @@ Our tag is available on Google Tag Manager Community Template Gallery.
   - To add the template, click **Add to workspace**.
   - Review the required template permissions and click **Add**. 
 
-2. ###  Add a new tag using the Firework Purchase Tracking template
-In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
-- Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-- Name your tag
-  Optional: Add a note to your configuration for later reference. ...
-- Add the triggering   
-- Click **Save** and create more tags as needed.  
+  2. ###  Add a new tag using the Firework Purchase Tracking template
+  In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
+    - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
+    - Name your tag
+      Optional: Add a note to your configuration for later reference. ...
+    - Add the triggering   
+    - Click **Save** and create more tags as needed.  
 
-  <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
+    <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
 
     
 ### Tag Manager Preview Mode:
