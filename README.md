@@ -37,25 +37,25 @@ window.dataLayer.push({
 ```
 This implementation requires the following data points to be pushed to the dataLayer in order to send purchase  to Firework:
 
-  - order_id: string
+  - **order_id**: string
   ID of an order/transaction e.g. '12345'
 
-  - order_value: number
+  - **order_value**: number
   total value of the order, e.g. 100
 
-  - currency: string
+  - **currency**: string
   currency in which the order_value was purchased. See a [list]([url](https://en.wikipedia.org/wiki/ISO_4217)) of supported currency codes. E.g. 'USD', 'CAD' etc.
 
-  - country: string
+  - **country**: string
 
-  - subtotal?: number
+  - **subtotal**?: number
 
-  - payment_method?: string
+  - **payment_method**?: string
 
-  - product?: Array<{ ext_product_id: string; price: number; quantity: number }>
+  - **product**?: Array<{ ext_product_id: string; price: number; quantity: number }>
   A comma-separated string or an array of product IDs, its prices and quantities that were part of the Order.
 
-  - ext_customer_identifier?: string
+  - **ext_customer_identifier**?: string
 
 3. A Trigger for when an order is completed (purchase confirmation page)
 
