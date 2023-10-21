@@ -1,0 +1,9 @@
+homepage: "https://firework.com/"
+documentation: "https://docs.firework.com/home/web/tutorials"
+versions:
+  # Latest version
+  - sha: e1116eb3ef6f0d58ba33f7828042669b257408a4
+    changeNotes: Initial release.
+  # Older versions
+  - sha: 72a276d43055021e192bf62273bfeca928bbd3f6
+    changeNotes: Initial release.
