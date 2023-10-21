@@ -92,6 +92,10 @@ This implementation requires the following data points to be pushed to the **dat
   - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
   - Navigate to the DataLayer tab in the Tag Manager Preview panel.
   - Verify that the FireWork Purchase Event is visible under the dataLayer section and is not loaded as a variable of type Object. It should be present as a distinct entry within the dataLayer.
+
+  <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/fb007c30-61c3-4907-a852-803b1a347792">
+
+    
   - Test the implementation by making a test purchase on your website.
   - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
 
