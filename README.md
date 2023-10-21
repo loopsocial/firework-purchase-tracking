@@ -8,7 +8,7 @@
 
 Firework Purchase Tracking gives you valuable insights for user's shopping experience and performance when buying products in your website. The Firework Purchase Tracker enables merchants to capture relevant sales related actions from customers that have interacted with Firework player. 
 
-By implementing the **Firework Purchase Tracking tag**, we can determine the GMV and AOV attributed to Firework. 
+By implementing the **Firework Purchase Tracking tag**, we can determine the **GMV** and **AOV** attributed to Firework. 
 
 You can add the Firework Purchase Tracking Tag in different ways:
   1. Add it directly to your application code - just follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
