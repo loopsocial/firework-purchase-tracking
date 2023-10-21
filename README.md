@@ -72,3 +72,13 @@ window.dataLayer.push({
   - Test the implementation by making a test purchase on your website.
   - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
 
+  4. ### Publish the new tag
+  When your new tag is working as intended, publish it.
+
+  To publish your current workspace:
+  
+  - Click **Submit** at the top right hand side of the screen. The **Submit Changes** screen will appear, with options to publish the container and save a version of your container.
+  - Select **Publish and Create Version** if it is not already selected.
+  - Review the **Workspace Changes** section to see if your configuration appears as you expect.
+  - Enter a **Version Name** and **Version Description**.
+  - Click **Publish**.
