@@ -62,12 +62,10 @@ window.dataLayer.push({
     <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
     
   - Click **Save**.
-  - Valite the implementation: Google tag manager has a [preview]([url](https://support.google.com/tagmanager/answer/6107056?hl=en)) feature that you can now use to test the integration before putting it live on your website.
-Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
-Navigate to the DataLayer tab in the Tag Manager Preview panel.
-Verify that the FireWork Purchase Event is visible under the dataLayer section and is not loaded as a variable of type Object. It should be present as a distinct entry within the dataLayer.
-
-### Tag Testing:
-Test the implementation by making a test purchase on your website.
-Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
+  - Valite the implementation: Google tag manager has a [preview]([url](https://support.google.com/tagmanager/answer/6107056)) feature that you can now use to test the integration before putting it live on your website.
+    - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
+    - Navigate to the DataLayer tab in the Tag Manager Preview panel.
+    - Verify that the FireWork Purchase Event is visible under the dataLayer section and is not loaded as a variable of type Object. It should be present as a distinct entry within the dataLayer.
+    - Test the implementation by making a test purchase on your website.
+    - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
 
