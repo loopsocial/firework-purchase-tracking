@@ -33,7 +33,7 @@ window.dataLayer.push({
 });
 </script>
 ```
-This implementation requires the following data points to be pushed to the dataLayer in order to send purchase data:
+This implementation requires the following data points to be pushed to the dataLayer in order to send purchase  to Firework:
 
 - order_id: the ID of an order/transaction e.g. '12345'
 - order_value: total value of the order, e.g. 100
