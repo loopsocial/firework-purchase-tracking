@@ -54,13 +54,13 @@ window.dataLayer.push({
   2. ###  Add a new tag using the Firework Purchase Tracking template
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
-    - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-    - Name your tag
-      Optional: Add a note to your configuration for later reference. ...
-    - Add the triggering   
-    - Click **Save** and create more tags as needed.  
-
-    <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
+  - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
+  - Name your tag
+    Optional: Add a note to your configuration for later reference. ...
+  - Add the triggering   
+  - Click **Save** and create more tags as needed.  
+  
+  <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/e5f29090-b3cb-4219-b19d-60297ac19d3e">
 
     
 ### Tag Manager Preview Mode:
