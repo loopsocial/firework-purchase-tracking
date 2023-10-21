@@ -53,9 +53,9 @@ window.dataLayer.push({
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
   - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-  - Name your tag
+  - **Name** your tag
     Optional: Add a note to your configuration for later reference. ...
-  - Add the triggering, in our example we have selected to show the new tag on every page which is a default existing trigger in Google Tag Manager. You can also choose to create your own trigger that can be based on many different rules. For example, you could trigger the tag on only certain pages, or after a certain time the user have spent on the page.
+  - Add the **triggering**, in our example we have selected to show the new tag on every page which is a default existing trigger in Google Tag Manager. You can also choose to create your own trigger that can be based on many different rules. For example, you could trigger the tag on only certain pages, or after a certain time the user have spent on the page.
 
     <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/d6ec4971-b6ff-4537-9e41-4552adc868e8">
 
