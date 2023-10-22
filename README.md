@@ -12,7 +12,7 @@ By implementing the **Firework Purchase Tracking**, we can determine the **GMV**
 
 You can add the Firework Purchase Tracking Tag in different ways:
   1. Add it directly to your application code - just follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
-  2. Or inject it through a tag manager solution such as Google Tag Manager, Tealium or Adobe Analytics
+  2. Or inject it through a tag manager solution such as Google Tag Manager (GTM), Tealium or Adobe Analytics
 
 > This guide covers the **Firework Purchase Tracking** implementation using [Google Tag Manager](https://tagmanager.google.com/). The Firework Purchase Tracking tag is designed to capture specific purchase events on your website. In order to ensure accurate data capture, it is essential to correctly configure a new tag using the Firework Purchase Tracking Template and push the necessary information to the Google Tag Manager [dataLayer](https://developers.google.com/tag-platform/tag-manager/datalayer) object on your web pages.
 
@@ -63,7 +63,7 @@ This implementation requires the following data points to be pushed to the `data
 ## Implementation Steps
     
   1. ###  Add the Firework Purchase Tracking Tag template from within Tag Manager
-  Our tag is available on Google Tag Manager Community Template Gallery. 
+  Our tag is available on [Google Tag Manager Community Template Gallery](https://tagmanager.google.com/gallery). 
 
   **To search for and add the Firework tag template:**
   - From within Tag Manager, click **Templates**.
@@ -87,20 +87,20 @@ This implementation requires the following data points to be pushed to the `data
   - Click **Save**.
   
   3. ### Validate the implementation
-  Google tag manager has a [preview]([url](https://support.google.com/tagmanager/answer/6107056)) feature that you can now use to test the integration before putting it live on your website.
+  Google Tag Manager has a [preview]([url](https://support.google.com/tagmanager/answer/6107056)) feature that you can now use to test the integration before putting it live on your website.
   
   - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
 
   <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/784bd9d8-183d-42ac-aacd-e9fb993176b4">
     
   - Navigate to the DataLayer tab in the Tag Manager Preview panel.
-  - Verify that the FireWork Purchase Event is visible under the dataLayer section and is not loaded as a variable of type Object. It should be present as a distinct entry within the dataLayer.
+  - Verify that the FireWork Purchase Event is visible under the `dataLayer` section and is not loaded as a variable of type Object. It should be present as a distinct entry within the `dataLayer`.
 
   <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/fb007c30-61c3-4907-a852-803b1a347792">
 
     
   - Test the implementation by making a test purchase on your website.
-  - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the `dataLayer`.
+  - Check the Google Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the `dataLayer`.
 
   4. ### Publish the new tag
   When your new tag is working as intended, publish it.
