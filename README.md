@@ -8,13 +8,13 @@
 
 Firework Purchase Tracking gives you valuable insights for user's shopping experience and performance when buying products in your website. The Firework Purchase Tracker enables merchants to capture relevant sales related actions from customers that have interacted with Firework player. 
 
-By implementing the **Firework Purchase Tracking tag**, we can determine the **GMV** and **AOV** attributed to Firework. 
+By implementing the **Firework Purchase Tracking**, we can determine the **GMV** and **AOV** attributed to Firework. 
 
 You can add the Firework Purchase Tracking Tag in different ways:
   1. Add it directly to your application code - just follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
   2. Or inject it through a tag manager solution such as Google Tag Manager, Tealium or Adobe Analytics
 
-> This guide is going to cover the implementation using [Google Tag Manager](https://tagmanager.google.com/). The Firework Purchase Tracking tag is designed to capture specific purchase events on your website. In order to ensure accurate data capture, it is essential to correctly configure a new tag using the Firework Purchase Tracking Template and push the necessary information to the Google Tag Manager [dataLayer](https://developers.google.com/tag-platform/tag-manager/datalayer) object on your web pages.
+> This guide covers the **Firework Purchase Tracking** implementation using [Google Tag Manager](https://tagmanager.google.com/). The Firework Purchase Tracking tag is designed to capture specific purchase events on your website. In order to ensure accurate data capture, it is essential to correctly configure a new tag using the Firework Purchase Tracking Template and push the necessary information to the Google Tag Manager [dataLayer](https://developers.google.com/tag-platform/tag-manager/datalayer) object on your web pages.
 
 ## Requirements
 1. Google Tag Manager [implemented](https://developers.google.com/tag-platform/tag-manager/web)
