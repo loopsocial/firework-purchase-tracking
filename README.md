@@ -108,6 +108,10 @@ This implementation requires the following data points to be pushed to the `data
   To publish your current workspace:
   
   - Click **Submit** at the top right hand side of the screen. The **Submit Changes** screen will appear, with options to publish the container and save a version of your container.
+
+    <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/a0015b6f-ba52-4e12-8421-eab7039bfa0e">
+
+    
   - Select **Publish and Create Version** if it is not already selected.
   - Review the **Workspace Changes** section to see if your configuration appears as you expect.
   - Enter a **Version Name** and **Version Description**.
