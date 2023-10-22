@@ -69,7 +69,7 @@ This implementation requires the following data points to be pushed to the `data
   - From within Tag Manager, click **Templates**.
   - In the **Tag Templates** section, click **Search Gallery**.
   - To filter the list, click <img width="27" src="https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/3febe355-5c2e-4830-a37d-99a6ab5d34bc"> to open the search field and type "Firework Purchase Tracking" to show the Firework template.
-  - Click on the Firework Purchase Tracking Tag template from the result to view details.
+  - Click on the **Firework Purchase Tracking Tag template** from the result to view details.
   - To add the template, click **Add to workspace**.
   - Review the required template permissions and click **Add**. 
 
