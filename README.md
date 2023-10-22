@@ -6,7 +6,7 @@
 
 ## Introdution
 
-Firework Purchase Tracking gives you valuable insights for user's shopping experience and performance when buying products in your website. The Firework Purchase Tracker enables merchants to capture relevant sales related actions from customers that have interacted with Firework player. 
+**Firework Purchase Tracking** gives you valuable insights for user's shopping experience and performance when buying products in your website. The Firework Purchase Tracker enables merchants to capture relevant sales related actions from customers that have interacted with Firework player. 
 
 By implementing the **Firework Purchase Tracking**, we can determine the **GMV** and **AOV** attributed to Firework. 
 
