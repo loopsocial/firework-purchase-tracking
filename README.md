@@ -87,7 +87,7 @@ This implementation requires the following data points to be pushed to the `data
   - Click **Save**.
   
   3. ### Validate the implementation
-  Google Tag Manager has a [preview]([url](https://support.google.com/tagmanager/answer/6107056)) feature that you can now use to test the integration before putting it live on your website.
+  Google Tag Manager has a [**preview**]([url](https://support.google.com/tagmanager/answer/6107056)) feature that you can now use to test the integration before putting it live on your website.
   
   - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
 
