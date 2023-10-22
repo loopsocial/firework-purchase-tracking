@@ -17,7 +17,7 @@ You can add the Firework Purchase Tracking Tag in different ways:
 This guide is going to cover the implementation using [Google Tag Manager](https://tagmanager.google.com/). The Firework Purchase Tracking tag is designed to capture specific purchase events on your website. In order to ensure accurate data capture, it is essential to correctly configure a new tag using the Firework Purchase Tracking Template and push the necessary information to the Google Tag Manager [dataLayer](https://developers.google.com/tag-platform/tag-manager/datalayer) object on your web pages.
 
 ## Requirements
-1. Google Tag Manager implemented
+1. Google Tag Manager [implemented](https://developers.google.com/tag-platform/tag-manager/web)
 2. a `datalayer` object from Google Tag Manager pushing the order details, see an example below
    
 ```JavaScript
