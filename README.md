@@ -1,4 +1,4 @@
-<p align="center" margin="100">
+<p align="center" margin-top="100" margin-bottom="100">
   <a href="https://firework.com" target="_blank" align="center"><img src="https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/19af597b-b44b-437c-9a11-f4b666c362ea"></a>
 </p>
 
