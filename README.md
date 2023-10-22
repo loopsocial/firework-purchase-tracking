@@ -1,5 +1,13 @@
 
-![ezgif com-webp-to-png](https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/19af597b-b44b-437c-9a11-f4b666c362ea)
+<div>
+  <br/><br />
+  <p align="center">
+    <a href="https://firework.com" target="_blank" align="center">
+        <img src="https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/19af597b-b44b-437c-9a11-f4b666c362ea" width="280">
+    </a>
+  </p>
+  <br/><br />
+</div>
 
 
 # Firework Purchase Tracking
