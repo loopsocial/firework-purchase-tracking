@@ -100,7 +100,7 @@ This implementation requires the following data points to be pushed to the `data
 
     
   - Test the implementation by making a test purchase on your website.
-  - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the dataLayer.
+  - Check the Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the `dataLayer`.
 
   4. ### Publish the new tag
   When your new tag is working as intended, publish it.
