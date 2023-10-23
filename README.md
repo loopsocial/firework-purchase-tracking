@@ -49,7 +49,7 @@ This implementation requires the following data points to be pushed to the `data
   currency in which the order_value was purchased. See a [list](https://en.wikipedia.org/wiki/ISO_4217) of supported currency codes. E.g. 'USD', 'CAD' etc.
 
   - `country`: string<br/>
-  country 
+  customer's country 
   
   - `subtotal`?: number
 
