@@ -61,6 +61,7 @@ This implementation requires the following data points to be pushed to the `data
 
   - `ext_customer_identifier`?: string
   A way to pass merchants's user ID to its customers
+
   
   <br/>
   
