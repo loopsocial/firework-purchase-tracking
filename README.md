@@ -139,31 +139,31 @@ You will need to use your browser DevTools or any similar tool, such as Charles 
 
    ```TopoJSON
    {
-   "platform":"web",
-   "product":"embed.web.naboo",
-   "product_version":"v20231018.1-hotfix",
-   "track_version":"2.0",
-   "client_event_time":"2023-10-23T10:34:55.090",
-   "os_name":"MacOS",
-   "event_properties":{
-      "locale":"en-US",
-      "page_load_id":"90e4c277-5d99-4598-afbd-5371d5d38274",
-      "page_url":"https://firework.com/firework-purchase-tracking.html",
-      "session_count":39,
-      "_last_channel_id":"1ePm6O",
-      "_last_video_id":"gd3qDZ",
-      "last_engaged_timestamp":"2023-10-17T17:46:28.265Z",
-      "user_data":{
+     "platform":"web",
+     "product":"embed.web.naboo",
+     "product_version":"v20231018.1-hotfix",
+     "track_version":"2.0",
+     "client_event_time":"2023-10-23T10:34:55.090",
+     "os_name":"MacOS",
+     "event_properties":{
+       "locale":"en-US",
+       "page_load_id":"90e4c277-5d99-4598-afbd-5371d5d38274",
+       "page_url":"https://firework.com/firework-purchase-tracking.html",
+       "session_count":39,
+       "_last_channel_id":"1ePm6O",
+       "_last_video_id":"gd3qDZ",
+       "last_engaged_timestamp":"2023-10-17T17:46:28.265Z",
+       "user_data":{
          "order_value":"35.54",
          "order_id":"23423",
          "currency":"CAD",
          "subtotal":"31.89",
          "country":"Canada"
-      }
-   },
-   "session_id":"7f8f797a-fd7e-4523-8591-0d7a83081589",
-   "session_type":"embed_session",
-   "guest_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803",
-   "visitor_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803"
-}
+       }
+     },
+     "session_id":"7f8f797a-fd7e-4523-8591-0d7a83081589",
+     "session_type":"embed_session",
+     "guest_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803",
+     "visitor_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803"
+   }
    ```
