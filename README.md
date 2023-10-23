@@ -59,10 +59,10 @@ This implementation requires the following data points to be pushed to the `data
 
   - `ext_customer_identifier`?: string
   
-  <br/><br/>
+  <br/>
   > More information about `dataLayer`: https://developers.google.com/tag-platform/tag-manager/datalayer
   
-  <br/><br/>
+  <br/>
   
 3. A [Trigger](https://support.google.com/tagmanager/answer/7679316) for when an order is completed (purchase confirmation page)
 
