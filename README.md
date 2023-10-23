@@ -36,6 +36,8 @@ window.dataLayer.push({
 });
 </script>
 ```
+> More information about dataLayer: https://developers.google.com/tag-platform/tag-manager/datalayer
+
 This implementation requires the following data points to be pushed to the `dataLayer` in order to send properly the purchase information to Firework:
 
   - `order_id`: string
