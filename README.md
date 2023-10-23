@@ -167,3 +167,4 @@ You will need to use your browser DevTools or any similar tool, such as Charles 
      "visitor_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803"
    }
    ```
+  <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/551fdf92-f5d3-4e85-8cb7-d0ac2407d035">
