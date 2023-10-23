@@ -137,7 +137,7 @@ You will need to use your browser DevTools or any similar tool, such as Charles 
 
 2. Check the network calls when completing the purchase. There must be a metrics call to `https://p2.fwpixel.com/trk/user:purchase` returning a 200 status. The payload will be similar to:
 
-   ```JSON
+   ```TopoJSON
    {
    "platform":"web",
    "product":"embed.web.naboo",
