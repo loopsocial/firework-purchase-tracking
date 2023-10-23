@@ -125,3 +125,17 @@ This implementation requires the following data points to be pushed to the `data
   - Enter a **Version Name** and **Version Description**.
   - Click **Publish**.
     <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/a0015b6f-ba52-4e12-8421-eab7039bfa0e">
+
+
+##Troubleshooting
+
+If you place a test order but cannot see the`dataLayer` section within Google Tag Manager, here's some tips to help you to address. 
+You will need to use your browser DevTools for the below troubleshooting:
+
+1. Confirm if the Firework Purchase Tracking Library is loaded from `https://asset.fwcdn3.com/js/analytics.js` on your page, before your purchase script/the GTM tag is fired.
+   <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/78f5b334-b499-4de2-9d1c-8ddb5a8802eb">
+
+2. Check the network calls when completing the purchase. There must be a metrics call to `https://p2.fwpixel.com/trk/user:purchase` returning a 200 status. The payload will be similar to:
+   ```
+   {"platform":"web","product":"embed.web.naboo","product_version":"v20231018.1-hotfix","track_version":"2.0","client_event_time":"2023-10-23T10:34:55.090","os_name":"MacOS","event_properties":{"locale":"en-US","page_load_id":"90e4c277-5d99-4598-afbd-5371d5d38274","page_url":"https://firework.com/firework-purchase-tracking.html","session_count":39,"_last_channel_id":"1ePm6O","_last_video_id":"gd3qDZ","last_engaged_timestamp":"2023-10-17T17:46:28.265Z","user_data":{"order_value":"35.54","order_id":"23423","currency":"CAD","subtotal":"31.89","country":"Canada"}},"session_id":"7f8f797a-fd7e-4523-8591-0d7a83081589","session_type":"embed_session","guest_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803","visitor_id":"47ef059a-a99d-4d2c-80d1-7cfd5b396803"}
+   ```
