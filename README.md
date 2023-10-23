@@ -60,6 +60,7 @@ This implementation requires the following data points to be pushed to the `data
   - `ext_customer_identifier`?: string
   
   <br/>
+  
   > More information about `dataLayer`: https://developers.google.com/tag-platform/tag-manager/datalayer
   
   <br/>
