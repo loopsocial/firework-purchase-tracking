@@ -28,7 +28,71 @@ ___INFO___
 
 ___TEMPLATE_PARAMETERS___
 
-[]
+[
+  {
+    "type": "TEXT",
+    "name": "order_id",
+    "displayName": "Order Id",
+    "simpleValueType": true
+  },
+  {
+    "type": "TEXT",
+    "name": "order_value",
+    "displayName": "Order Value",
+    "simpleValueType": true,
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ]
+  },
+  {
+    "type": "TEXT",
+    "name": "currency",
+    "displayName": "Currency",
+    "simpleValueType": true,
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ]
+  },
+  {
+    "type": "TEXT",
+    "name": "country",
+    "displayName": "Country",
+    "simpleValueType": true,
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ]
+  },
+  {
+    "type": "TEXT",
+    "name": "subtotal",
+    "displayName": "Subtotal",
+    "simpleValueType": true
+  },
+  {
+    "type": "TEXT",
+    "name": "payment_method",
+    "displayName": "Payment method",
+    "simpleValueType": true
+  },
+  {
+    "type": "TEXT",
+    "name": "product",
+    "displayName": "Product",
+    "simpleValueType": true
+  },
+  {
+    "type": "TEXT",
+    "name": "ext_customer_identifier",
+    "displayName": "Ext Customer Identifier",
+    "simpleValueType": true
+  }
+]
 
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
@@ -49,14 +113,55 @@ function onFailure (){
 function onSuccess () {
   var DataFw = {};
 
-  if (copyFromDataLayer('order_id') != undefined) DataFw.order_id = copyFromDataLayer('order_id');
-  if (copyFromDataLayer('order_value') != undefined) DataFw.order_value = copyFromDataLayer('order_value');
-  if (copyFromDataLayer('currency') != undefined) DataFw.currency = copyFromDataLayer('currency');
-  if (copyFromDataLayer('country') != undefined) DataFw.country = copyFromDataLayer('country');
-  if (copyFromDataLayer('subtotal') != undefined) DataFw.subtotal = copyFromDataLayer('subtotal');
-  if (copyFromDataLayer('payment_method') != undefined) DataFw.payment_method = copyFromDataLayer('payment_method');
-  if (copyFromDataLayer('product') != undefined) DataFw.product = copyFromDataLayer('product');
-  if (copyFromDataLayer('ext_customer_identifier') != undefined) DataFw.ext_customer_identifier = copyFromDataLayer('ext_customer_identifier');
+  if (data.order_id != undefined) {
+    DataFw.order_id = data.order_id;
+  } else {
+    log("❌ Order ID not found. Please check the value of the variable sent.");
+    data.gtmOnFailure();
+    return;
+  }
+
+  if (data.order_value != undefined) {
+    DataFw.order_value = data.order_value;
+  } else {
+    log("❌ Order Value not found. Please check the value of the variable sent.");
+    data.gtmOnFailure();
+    return;
+  }
+
+  if (data.currency != undefined) {
+    DataFw.currency = data.currency;
+  } else {
+    log("❌ Currency not found. Please check the value of the variable sent.");
+    data.gtmOnFailure();
+    return;
+  }
+
+  if (data.country != undefined) {
+    DataFw.country = data.country;
+  } else {
+    log("❌ Country not found. Please check the value of the variable sent.");
+    data.gtmOnFailure();
+    return;
+  }
+
+  if (data.subtotal != undefined) {
+    DataFw.subtotal = data.subtotal;
+  } 
+
+  if (data.payment_method != undefined) {
+    DataFw.payment_method = data.payment_method;
+  } 
+
+  if (data.product != undefined) {
+    DataFw.product = data.product;
+  } 
+
+  if (data.ext_customer_identifier != undefined) {
+    DataFw.ext_customer_identifier = data.ext_customer_identifier;
+  }
+
+  log(DataFw);
   
   if (queryPermission('access_globals', 'execute', '_fwn.analytics.purchase')) {
     callInWindow("_fwn.analytics.purchase", DataFw);
@@ -310,6 +415,13 @@ ___WEB_PERMISSIONS___
       },
       "param": [
         {
+          "key": "allowedKeys",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
           "key": "keyPatterns",
           "value": {
             "type": 2,
@@ -361,6 +473,4 @@ setup: ''
 
 ___NOTES___
 
-Created on 19/10/2023, 20:53:24
-
-
+Created on 10/19/2023, 20:53:24
