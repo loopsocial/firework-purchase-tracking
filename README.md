@@ -91,7 +91,7 @@ window.dataLayer.push({
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
   - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-  - Create new GTM DataLayer [variables](https://support.google.com/tagmanager/answer/6164391?#:~:text=or%20returning%20customer-,Create%20a%20data%20layer%20variable,-Data%20layer%20variables)): order_value, currency, country are mandatory fields.
+  - Create new GTM DataLayer [variables](https://support.google.com/tagmanager/answer/6164391?#:~:text=or%20returning%20customer-,Create%20a%20data%20layer%20variable,-Data%20layer%20variables): order_value, currency, country are mandatory fields.
 
   > Data layer variables enable Google Tag Manager to read values from your data layer implementation and pass those values to tags, triggers, and other variables. A data layer object is made up of a list of key/value pairs.
     
