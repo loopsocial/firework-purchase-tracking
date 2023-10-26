@@ -71,7 +71,7 @@ window.dataLayer.push({
   
   <br/>
   
-3. A [Trigger](https://support.google.com/tagmanager/answer/7679316) for when an order is completed (purchase confirmation page)
+4. A [Trigger](https://support.google.com/tagmanager/answer/7679316) for when an order is completed (purchase confirmation page)
 
 
 ## Implementation Steps
