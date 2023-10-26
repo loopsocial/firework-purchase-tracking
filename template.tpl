@@ -33,7 +33,9 @@ ___TEMPLATE_PARAMETERS___
     "type": "TEXT",
     "name": "order_id",
     "displayName": "Order Id",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "help": "string, ID of an order/transaction e.g. \u002712345\u0027",
+    "valueHint": "12345"
   },
   {
     "type": "TEXT",
@@ -44,7 +46,9 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "help": "number, total value of the order, e.g. 100",
+    "valueHint": "50.54"
   },
   {
     "type": "TEXT",
@@ -55,7 +59,9 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "help": "string, currency in which the order_value was purchased.",
+    "valueHint": "CAD"
   },
   {
     "type": "TEXT",
@@ -66,31 +72,41 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "NON_EMPTY"
       }
-    ]
+    ],
+    "help": "string, customer\u0027s country",
+    "valueHint": "Canada"
   },
   {
     "type": "TEXT",
     "name": "subtotal",
     "displayName": "Subtotal",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "help": "number",
+    "valueHint": "40.89"
   },
   {
     "type": "TEXT",
     "name": "payment_method",
     "displayName": "Payment method",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "help": "string order\u0027s payment method, e.g.: AMEX, VISA, etc",
+    "valueHint": "AMEX"
   },
   {
     "type": "TEXT",
     "name": "product",
     "displayName": "Product",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "help": "Array\u003c{ ext_product_id: string; price: number; quantity: number }\u003e A comma-separated string or an array of product IDs, its prices and quantities that were part of the Order.",
+    "valueHint": "{ ext_product_id: \u00274483\u0027, price: 31, quantity: 15 }"
   },
   {
     "type": "TEXT",
     "name": "ext_customer_identifier",
     "displayName": "Ext Customer Identifier",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "help": "string, a way to pass merchants\u0027s user ID to its customers",
+    "valueHint": "1234-1234-1234-1234"
   }
 ]
 
