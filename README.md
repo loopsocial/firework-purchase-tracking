@@ -86,12 +86,25 @@ window.dataLayer.push({
   - Click on the **Firework Purchase Tracking Tag template** from the result to view details.
   - To add the template, click **Add to workspace**.
   - Review the required template permissions and click **Add**. 
+  
+  2. ### Create new GTM DataLayer [variables](https://support.google.com/tagmanager/answer/6164391?#:~:text=or%20returning%20customer-,Create%20a%20data%20layer%20variable,-Data%20layer%20variables)
+  - Click **Variables**.
+  - Under **User-Defined Variables**, click **New**.
+  - Click **Variable Configuration** and select **Data Layer Variable** as the variable type.
+  - In the **Data Layer Variable Name field**, enter the key exactly as it was written in the code (e.g. order_id, not order id.)
+  - In most cases you should leave the **Data Layer Version** set to the default value of Version 2. Learn more.
+  - Save the variable.
+  - Repeat these steps for every data layer key that you would like to have available as a variable in Tag Manager.
+  
+  <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/7acbf737-3939-4122-a6ab-1bfd04f63e9b">
 
-  2. ###  Add a new tag using the Firework Purchase Tracking template and assign a trigger
+  <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/2b97dd03-52a6-4753-9815-516c00763b41">
+
+  
+  3. ###  Add a new tag using the Firework Purchase Tracking template and assign a trigger
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
   - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-  - Create new GTM DataLayer [variables](https://support.google.com/tagmanager/answer/6164391?#:~:text=or%20returning%20customer-,Create%20a%20data%20layer%20variable,-Data%20layer%20variables): order_value, currency, country are mandatory fields.
 
   > Data layer variables enable Google Tag Manager to read values from your data layer implementation and pass those values to tags, triggers, and other variables. A data layer object is made up of a list of key/value pairs.
     
@@ -104,7 +117,7 @@ window.dataLayer.push({
     
   - Click **Save**.
   
-  3. ### Validate the implementation
+  4. ### Validate the implementation
   Google Tag Manager has a preview feature that you can now use to test the integration before putting it live on your website.
   
   - Enable the [Preview mode](https://support.google.com/tagmanager/answer/6107056) in Google Tag Manager.
@@ -120,7 +133,7 @@ window.dataLayer.push({
   - Test the implementation by making a test purchase on your website.
   - Check the Google Tag Manager Preview panel to ensure that the FireWork Purchase Event is triggered correctly and the data is captured in the `dataLayer`.
 
-  4. ### Publish the new tag
+  5. ### Publish the new tag
   When your new tag is working as intended, [publish](https://support.google.com/tagmanager/answer/6107163) it.
 
   To publish your current workspace:
