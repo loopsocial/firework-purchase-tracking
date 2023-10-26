@@ -94,6 +94,8 @@ window.dataLayer.push({
   - Add the **triggering**, in our example we have selected to show the new tag on every page which is a default existing trigger in Google Tag Manager. You can also choose to create your own trigger that can be based on many different rules. For example, you could trigger the tag on only certain pages, or after a certain time the user have spent on the page.
 
     <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/d6ec4971-b6ff-4537-9e41-4552adc868e8">
+    
+    <img width="1840" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/87a8a123-eefb-4593-9d2a-9014a96e5804">
 
     
   - Click **Save**.
