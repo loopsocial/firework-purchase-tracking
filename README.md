@@ -36,6 +36,8 @@ window.dataLayer.push({
 });
 </script>
 ```
+3. Create new GTM DataLayer [variables](https://support.google.com/tagmanager/answer/6164391?#:~:text=Set%20up%20the%20data%20layer%20variable) based on the data points 
+
 > [!IMPORTANT]
 > This implementation requires the following data points to be pushed to the `dataLayer` in order to send properly the purchase information to Firework:
 >
@@ -89,7 +91,10 @@ window.dataLayer.push({
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
 
   - Go to tags and create a new tag from our template (Firework Purchase Tracking). To add a tag, click **New**.
-  - This new tag requires some data points (GTM [variables](https://support.google.com/tagmanager/answer/6164391?hl=en#:~:text=or%20returning%20customer-,Create%20a%20data%20layer%20variable,-Data%20layer%20variables)) in order to send purchase data: order_value, currency, country are mandatory fields.
+  - Create new GTM DataLayer [variables](https://support.google.com/tagmanager/answer/6164391?#:~:text=or%20returning%20customer-,Create%20a%20data%20layer%20variable,-Data%20layer%20variables)): order_value, currency, country are mandatory fields.
+
+  > Data layer variables enable Google Tag Manager to read values from your data layer implementation and pass those values to tags, triggers, and other variables. A data layer object is made up of a list of key/value pairs.
+    
   - **Name** your tag
     Optional: Add a note to your configuration for later reference. ...
   - Add the **triggering**, in our example we have selected to show the new tag on every page which is a default existing trigger in Google Tag Manager. You can also choose to create your own trigger that can be based on many different rules. For example, you could trigger the tag on only certain pages, or after a certain time the user have spent on the page.
