@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://firework.com" target="_blank" align="center"><img src="https://github.com/fireworkads/Firework-Tag-Template/assets/87154260/19af597b-b44b-437c-9a11-f4b666c362ea"></a>
+  <a href="https://firework.com" target="_blank" align="center"><img src="https://firework.com/wp-content/uploads/2023/05/Firework-Logo-Black-1.png"></a>
 </p>
 
 # Firework Purchase Tracking
