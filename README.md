@@ -12,7 +12,8 @@ By implementing the **Firework Purchase Tracking**, we can determine the **GMV**
 
 You can add the Firework Purchase Tracking Tag in different ways:
   1. Add it directly to your application code - just follow our [general implementation guide](https://docs.firework.com/home/web/integration-guide/shopping-integration-v2/tracking).
-  2. Or inject it through a tag manager solution such as Google Tag Manager (GTM), Tealium or Adobe Analytics
+  2. Or inject it through a tag manager solution such as Google Tag Manager (GTM), Tealium or Adobe Analytics.
+  3. Import our [template file](https://github.com/loopsocial/firework-purchase-tracking/blob/main/template.tpl) into your Google Tag Manager container.
 
 > [!NOTE]
 > This guide covers the **Firework Purchase Tracking** implementation using [Google Tag Manager](https://tagmanager.google.com/). The Firework Purchase Tracking tag is designed to capture specific purchase events on your website. In order to ensure accurate data capture, it is essential to correctly configure a new tag using the Firework Purchase Tracking Template and push the necessary information to the Google Tag Manager `dataLayer` object on your web pages.
