@@ -97,21 +97,22 @@ window.dataLayer.push({
     
   - In the **Data Layer Variable Name field**, enter the key exactly as it was written in the code (e.g. order_id, not order id.)
 
-    <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/bba4e3b5-c57a-401a-bc6d-a406e0f31800">
-
+  | <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/bba4e3b5-c57a-401a-bc6d-a406e0f31800"> |
+  |:--:| 
+  | *New DataLayer variable saved* |
     
   - In most cases you should leave the **Data Layer Version** set to the default value of Version 2. Learn more.
   - Save the variable.
 
   | <img width="2672" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/3d3905ad-6646-4e43-a356-035e380d780d"> |
   |:--:| 
-  | ** |
+  | *Naming a new dataLayer variable* |
     
   - Repeat these steps for every data layer key that you would like to have available as a variable in Tag Manager.
   
   | <img width="2672" alt="Screenshot 2023-10-27 at 9 28 00 AM" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/6e48b4ff-fd59-46d8-b40c-a62969085e0d"> |
   |:--:| 
-  | *New dataLayer Variables created* |
+  | *New DataLayer variable saved* |
   
   3. ###  Add a new tag using the Firework Purchase Tracking template and assign a trigger
   In your Workspace, click <img height="20" src="https://github.com/loopsocial/firework-purchase-tracking/assets/87154260/076fc37e-537c-4e46-9854-804c23612921"> Tags.
